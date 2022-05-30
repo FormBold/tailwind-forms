@@ -1,0 +1,138 @@
+<div class="flex items-center justify-center p-12">
+    <!-- Author: FormBold Team -->
+    <!-- Learn More: https://formbold.com -->
+  <div class="mx-auto max-w-[550px] w-full bg-white">
+    <form
+  action="https://formbold.com/s/FORM_ID"
+  method="POST">
+      <div class="flex flex-wrap -mx-3">
+        <div class="w-full sm:w-1/2 px-3">
+          <div class="mb-5">
+            <label
+              for="fName"
+              class="block font-medium text-base text-black mb-3"
+            >
+              First Name
+            </label>
+            <input
+              type="text"
+              name="fName"
+              id="fName"
+              placeholder="First Name"
+              class="w-full py-3 px-6 rounded-md border border-stroke bg-white font-medium text-base text-body-color outline-none focus:border-primary focus:shadow-form"
+            />
+          </div>
+        </div>
+        <div class="w-full sm:w-1/2 px-3">
+          <div class="mb-5">
+            <label
+              for="lName"
+              class="block font-medium text-base text-black mb-3"
+            >
+              Last Name
+            </label>
+            <input
+              type="text"
+              name="lName"
+              id="lName"
+              placeholder="Last Name"
+              class="w-full py-3 px-6 rounded-md border border-stroke bg-white font-medium text-base text-body-color outline-none focus:border-primary focus:shadow-form"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="mb-5">
+        <label for="guest" class="block font-medium text-base text-black mb-3">
+          How many guest are you bringing?
+        </label>
+        <input
+          type="number"
+          name="guest"
+          id="guest"
+          placeholder="5"
+          min="0"
+          class="w-full py-3 px-6 rounded-md border border-stroke bg-white font-medium text-base text-body-color outline-none focus:border-primary focus:shadow-form appearance-none"
+        />
+      </div>
+
+      <div class="flex flex-wrap -mx-3">
+        <div class="w-full sm:w-1/2 px-3">
+          <div class="mb-5">
+            <label
+              for="date"
+              class="block font-medium text-base text-black mb-3"
+            >
+              Date
+            </label>
+            <input
+              type="date"
+              name="date"
+              id="date"
+              class="w-full py-3 px-6 rounded-md border border-stroke bg-white font-medium text-base text-body-color outline-none focus:border-primary focus:shadow-form"
+            />
+          </div>
+        </div>
+        <div class="w-full sm:w-1/2 px-3">
+          <div class="mb-5">
+            <label
+              for="time"
+              class="block font-medium text-base text-black mb-3"
+            >
+              Time
+            </label>
+            <input
+              type="time"
+              name="time"
+              id="time"
+              class="w-full py-3 px-6 rounded-md border border-stroke bg-white font-medium text-base text-body-color outline-none focus:border-primary focus:shadow-form"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="mb-5">
+        <label class="block font-medium text-base text-black mb-3">
+          Are you coming to the event?
+        </label>
+        <div class="flex items-center space-x-6">
+          <div class="flex items-center">
+            <input
+              type="radio"
+              name="radio1"
+              id="radioButton1"
+              class="w-5 h-5"
+            />
+            <label
+              for="radioButton1"
+              class="font-medium text-base text-black pl-3"
+            >
+              Yes
+            </label>
+          </div>
+          <div class="flex items-center">
+            <input
+              type="radio"
+              name="radio1"
+              id="radioButton2"
+              class="w-5 h-5"
+            />
+            <label
+              for="radioButton2"
+              class="font-medium text-base text-black pl-3"
+            >
+              No
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <button
+          class="text-center bg-primary text-white font-semibold text-base py-3 px-8 rounded-md hover:shadow-form outline-none"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
